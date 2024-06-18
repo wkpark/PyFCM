@@ -43,7 +43,7 @@ setup(
     author_email=meta["__email__"],
     description=meta["__summary__"],
     long_description=read("README.rst"),
-    packages=["pyfcm"],
+    packages=["pyfcm", "pyfcm.v1"],
     install_requires=install_requires,
     tests_require=tests_require,
     test_suite="tests.get_tests",
